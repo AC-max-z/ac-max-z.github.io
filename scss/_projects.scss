@@ -1,0 +1,145 @@
+.projects {
+    padding: {
+        bottom: 2rem;
+    }
+
+    &__bio-image {
+        height: 30vh;
+        width: 100%;
+        background: linear-gradient(
+                to right,
+                rgba($primary-color, 0.9),
+                rgba($primary-color, 0.3)
+            ),
+            url('../img/10\ iconic\ machines\ from\ the\ last\ 100\ years.jpg')
+                center top;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    &__bio {
+        width: 80%;
+        text-align: center;
+    }
+
+    .text-accented {
+        font-size: 2rem;
+        margin: {
+            bottom: 1rem;
+        }
+        color: $secondary-color;
+    }
+
+    #projectsCarousel {
+        padding: {
+            top: 10rem;
+        }
+        width: 50%;
+        .carousel-item img {
+            object-fit: cover;
+            object-position: center;
+            overflow: hidden;
+            height: 50vh;
+        }
+    }
+
+    &__items {
+        width: 40vw;
+        margin: 3rem auto 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+        align-items: center;
+    }
+
+    &__item {
+        position: relative;
+        border-bottom: 5px solid $secondary-color;
+        overflow: hidden;
+        cursor: pointer;
+
+        img {
+            width: auto;
+            max-width: 100%;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: $secondary-color;
+            opacity: 0;
+            @include transition-ease;
+        }
+
+        &:hover {
+            &::after {
+                top: 0;
+                opacity: 0.9;
+            }
+
+            .projects__btn {
+                text-align: center;
+                opacity: 1;
+            }
+        }
+
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+
+    .acyl {
+        position: relative;
+        overflow: hidden;
+        padding: 5rem;
+        width: 100%;
+
+        img {
+            max-width: 100%;
+        }
+
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+
+    &__btns {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        text-align: center;
+    }
+
+    &__btn {
+        opacity: 0;
+        color: set-text-to-color($secondary-color);
+        @include transition-ease;
+
+        &:hover {
+            color: set-text-to-color(set-text-to-color($secondary-color));
+        }
+    }
+
+    .social-icons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        transform: rotate(90deg) translate(-3rem, -5rem);
+    }
+}

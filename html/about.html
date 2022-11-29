@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../public/styles/main.css">
+
+    <title>About me</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu-btn">
+            <span class="menu-btn__burger"></span>
+        </div>
+
+        <nav class="navigation">
+            <ul class="menu-nav">
+                <li class="menu-nav__item">
+                    <a href="index.html" class="menu-nav__link">Home</a>
+                </li>
+                <li class="menu-nav__item active">
+                    <a href="about.html" class="menu-nav__link">About me</a>
+                </li>
+                <li class="menu-nav__item">
+                    <a href="projects.html" class="menu-nav__link">My projects</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about">
+
+            <div class="about__bio-image">
+                <h2 class="text-accented">BIO</h2>
+            </div>
+            <div class="jobs">
+                <div class="card accordion">
+                    <div class="accordion-item" id="aboutMe">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed text-secondary" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#myBio" aria-expanded="true"
+                                aria-controls="myBio">
+                                About me
+                            </button>
+                        </h2>
+                        <div id="myBio" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#aboutMe">
+                            <div class="accordion-body">
+                                <p>Hi!</p>
+
+                                <p>Name's Max.</p>
+
+                                <p>I am result-oriented thorough problem solver with
+                                    analytical/synthetic/idealistic/pragmatic/realistic/whatever mindset.</p>
+
+                                <p>Experienced with building and maintaining test automation solutions of different
+                                    scales. Found
+                                    bugs which caused much more infrastructure costs per month than I'm getting paid.
+                                </p>
+
+                                <p>Have been working in the industry for about 8 years. Before QA I worked as software
+                                    analyst and
+                                    production incident analyst in OPS.
+
+                                    <p>Previously I worked on:
+                                        <ul>
+                                            <li>B2B software platforms solutions;</li>
+                                            <li>UCaaS backends - messenger;</li>
+                                            <li>Carsharing telematics (IoT) project.</li>
+                                        </ul>
+                                    </p>
+
+                                    <p>Also I am very passionate about music and its' production, so I would be very
+                                        committed working
+                                        on a project related to music industry.</p>
+
+                                    <p>Would as well love trying myself in a fresh startup environment with a clear idea
+                                        about problem
+                                        and product/solution.</p>
+
+                                    <p>If you are one of those and you need a guy who will take responsibility for
+                                        software
+                                        quality and
+                                        will build QA processes and automate QC - don't be shy to contact me, maybe we
+                                        will
+                                        fit?:)</p>
+
+                                    <p>Pref languages: Kotlin, Typescript.
+                                        Open to Rust, but I am horribad at it:).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card jobs__job">
+                    <h2 class="text-secondary">2022</h2>
+                    <h3>Belkacar</h3>
+                    <h6>Senior QA engineer</h6>
+                    <ul>
+                        <li>Worked on car telematics (IoT) project (Stack: Kotlin, Kafka Streams, Kafka Reactor, MySQL,
+                            gRPC, etc.);</li>
+                        <li>Automated backend E2E scenarios (tech stack: Kotlin, Gradle, Reactor Kafka, gRPC, JUnit 5,
+                            Spring Boot, Allure Test OPS);</li>
+                        <li>Set up CI pipeline (Jenkins, Job builder);</li>
+                        <li>Created a telegram bot to help start launches and inform about test results (telegraf,
+                            NodeJS);
+                        </li>
+                        <li>Set up integration with Allure Test OPS;</li>
+                        <li>Made test designs for microservices integration tests;</li>
+                        <li>Gatling based project setup for load testing.</li>
+                    </ul>
+                </div>
+                <div class="card jobs__job">
+                    <h2 class="text-secondary">2020-2022</h2>
+                    <h3>DINS/Ringcentral</h3>
+                    <h6>QA automation engineer</h6>
+                    <ul>
+                        <li>Worked on UCaaS (messenger) backends project as QA automation engineer (tech stack: NodeJS,
+                            TypeScript, MongoDB, Kafka, Redis, ELK, AWS, DynamoDB, TICK (well, almost), EKS, AWS
+                            Lambdas,
+                            Jenkins, ArgoCD);</li>
+                        <li>Last team project was implementation of GitOPS CI/CD and migration of routing logic to
+                            service
+                            mesh (Istio);</li>
+                        <li>Backend and CI/CD testing on development stage;</li>
+                        <li>E2E backend tests design and implementation;</li>
+                        <li>Component tests review and implementation;</li>
+                        <li>Inhouse built E2E backend test framework (Node.js) maintenance and feature development as
+                            well
+                            as its dependencies (ws-client, API client and libs);</li>
+                        <li>Made load and capacity test runs on in-team developed components (using Gatling based
+                            inhouse
+                            load test FW);</li>
+                        <li>Performed HA testing;</li>
+                        <li>Managed (did my part of) dev environment owned by team;</li>
+                        <li>Analyzed test runs on CI env, created bug tickets and OPS maintenance tickets when needed
+                            (or
+                            fixed env issues oneself);</li>
+                        <li>Performed pre-stage acceptance runs (manual and automated). Manual runs performed on web,
+                            desktop, iOS/Android clients;</li>
+                        <li>Made some adjustments and implemented features for inhouse test toolset (e-mail
+                            tool, proxy server tool);</li>
+                        <li>Set up Mongo RS monitoring on QA environment with telegraf/influx/grafana;</li>
+                        <li>Monitoring triggers testing on Kubernetes cluster and monitoring spec documentation.</li>
+                    </ul>
+                </div>
+                <div class="card jobs__job">
+                    <h2 class="text-secondary">2018-2020</h2>
+                    <h3>Taxcom</h3>
+                    <h6>Sr QA engineer</h6>
+                    <ul>
+                        <li>Worked on ETL project as Senior QA engineer;</li>
+                        <li>Software requirements review and validation on engineering solution design stage;</li>
+                        <li>Test strategy planning;</li>
+                        <li>Functional requirements specification using BDD approaches;</li>
+                        <li>Implemented UI testing from scratch using stack: Selenium webdriver+inhouse developed
+                            wrapper,
+                            Selenium grid, TestNG, Cucumber, Allure, made a Teamcity job;</li>
+                        <li>API test automation using RestAssured, JUnit, etc. (Java);</li>
+                        <li>Created and maintained user docs for our software (UI and public API);</li>
+                        <li>Maintained project documentation (regarding testing mostly);</li>
+                        <li>Test-design.</li>
+                    </ul>
+                </div>
+                <div class="card jobs__job">
+                    <h2 class="text-secondary">2016-2018</h2>
+                    <h3>Taxcom</h3>
+                    <h6>Software analyst</h6>
+                    <ul>
+                        <li>Worked on B2B EDI/ELDI system as a software analyst;</li>
+
+                        <li>Worked with stakeholders, product owners and key clients as part of requirements gathering
+                            process;</li>
+
+                        <li>Performed requirements analysis, regulatory compliance analysis, specifications design,
+                            ticket
+                            management;</li>
+
+                        <li>Took part in UI prototyping process;</li>
+
+                        <li>Automated regular business reports;</li>
+
+                        <li>Managed project documentation;</li>
+
+                        <li>Took part in feature acceptance testing.</li>
+                    </ul>
+                </div>
+
+                <div class="social-icons">
+                    <a href="https://t.me/AcidCommunism" target="_blank">
+                        <i class="fab fa-telegram fa-2x"></i>
+                    </a>
+                    <a href="https://github.com/AcidCommunism" target="_blank">
+                        <i class="fab fa-github fa-2x"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/max-z-40856a1a7/" target="_blank">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                </div>
+
+                <footer>&copy; Copyright 2022</footer>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/7cef972359.js" crossorigin="anonymous"></script>
+    <script src="../src/main.js"></script>
+</body>
+
+</html>

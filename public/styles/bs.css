@@ -1,0 +1,16 @@
+[class*='col__coloured'] {
+  padding: 1rem;
+  background-color: #33b5e5;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#alignment .row {
+  height: 500px;
+  margin-top: 1rem;
+}
+
+[class*='container'] {
+  margin-bottom: 0.5rem;
+}
+/*# sourceMappingURL=bs.css.map */

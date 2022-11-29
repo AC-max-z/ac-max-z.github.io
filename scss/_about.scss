@@ -1,0 +1,92 @@
+.about {
+    padding: {
+        bottom: 2rem;
+    }
+
+    &__bio-image {
+        height: 30vh;
+        width: 100%;
+        background: linear-gradient(
+                to right,
+                rgba($primary-color, 0.9),
+                rgba($primary-color, 0.3)
+            ),
+            url('../img/10\ iconic\ machines\ from\ the\ last\ 100\ years.jpg')
+                center top;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    &__bio {
+        width: 80%;
+        text-align: center;
+    }
+
+    .text-accented {
+        font-size: 2rem;
+        margin: {
+            bottom: 1rem;
+        }
+        color: $secondary-color;
+    }
+
+    .jobs {
+        width: 60vw;
+        margin: 2rem auto 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+
+        .accordion-button {
+            background-color: $primary-color;
+            &:focus {
+                outline: none !important;
+                box-shadow: none !important;
+            }
+        }
+        .accordion-button::after {
+            background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+        }
+
+        #aboutMe {
+            background: $primary-color; //lighten($color: $primary-color, $amount: 10%);
+            border: none;
+        }
+
+        #myBio {
+            border: none;
+        }
+
+        &__job {
+            background: lighten($color: $primary-color, $amount: 10%);
+            padding: 0.5rem;
+            border-bottom: 5px solid $secondary-color;
+
+            h2,
+            h3 {
+                margin: 0.5rem 0;
+            }
+
+            h6 {
+                margin: 0.3rem 0;
+                text-decoration: underline;
+            }
+
+            ul {
+                margin: 2rem;
+            }
+        }
+    }
+
+    .social-icons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        transform: rotate(90deg) translate(-3rem, -5rem);
+    }
+}
