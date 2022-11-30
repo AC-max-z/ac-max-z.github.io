@@ -1,3 +1,3 @@
 # Sup
 
-Check out my [portfolio](https://acidcommunism.github.io/) page😉
+Check out my [portfolio](https://acidcommunism.github.io/){:target="_blank"} page😉
