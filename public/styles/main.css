@@ -286,7 +286,6 @@
   position: relative;
   border-bottom: 5px solid #07a4c0;
   overflow: hidden;
-  cursor: pointer;
   text-align: center;
 }
 
@@ -354,10 +353,6 @@
   opacity: 0;
   color: #fff;
   transition: all 0.3s ease-in-out;
-}
-
-.projects__btn:hover {
-  color: #000;
 }
 
 .projects .social-icons {

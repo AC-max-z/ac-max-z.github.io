@@ -59,7 +59,7 @@
         position: relative;
         border-bottom: 5px solid $secondary-color;
         overflow: hidden;
-        cursor: pointer;
+        // cursor: pointer;
         text-align: center;
 
         img {
@@ -130,9 +130,9 @@
         color: set-text-to-color($secondary-color);
         @include transition-ease;
 
-        &:hover {
-            color: set-text-to-color(set-text-to-color($secondary-color));
-        }
+        // &:hover {
+        //     color: set-text-to-color(set-text-to-color($secondary-color));
+        // }
     }
 
     .social-icons {
