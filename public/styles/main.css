@@ -409,6 +409,10 @@
     visibility: visible;
     background-color: #272727;
     opacity: 0.5;
+    height: 10vh !important;
+  }
+  .navigation:hover {
+    opacity: 0.75;
   }
   .navigation .menu-nav {
     display: block;
