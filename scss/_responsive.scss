@@ -5,6 +5,8 @@
 
     .navigation {
         visibility: visible;
+        background-color: $primary-color;
+        opacity: 0.5;
 
         .menu-nav {
             display: block;

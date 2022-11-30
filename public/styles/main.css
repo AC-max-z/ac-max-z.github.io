@@ -407,6 +407,8 @@
   }
   .navigation {
     visibility: visible;
+    background-color: #272727;
+    opacity: 0.5;
   }
   .navigation .menu-nav {
     display: block;
