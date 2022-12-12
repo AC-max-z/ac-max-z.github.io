@@ -53,6 +53,7 @@
         grid-template-columns: 1fr;
         grid-gap: 2rem;
         align-items: top;
+        animation: 1s ease-out 0s 1 slideInFromRight;
     }
 
     &__item {

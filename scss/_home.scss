@@ -15,6 +15,7 @@
         url('../img/10\ iconic\ machines\ from\ the\ last\ 100\ years.jpg')
             center top;
     background-size: cover;
+    animation: 0.75s ease-out 0s 1 slideInFromTop;
 
     &__name {
         // width: 50%;
