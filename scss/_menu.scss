@@ -68,7 +68,7 @@
         justify-content: center;
         height: 100vh;
         overflow: hidden;
-        background: $primary-color;
+        background: rgba(0, 0, 0, 0.24);
         list-style-type: none;
         padding-right: 1rem;
         transform: translateY(-100%);
@@ -95,7 +95,7 @@
             display: inline-block;
             font-size: 2rem;
             text-transform: uppercase;
-            padding: 2rem 0;
+            padding: 3.3vh 0;
             font-weight: 300;
             @include transition-ease;
 

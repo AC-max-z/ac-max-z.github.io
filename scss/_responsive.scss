@@ -5,7 +5,8 @@
 
     .navigation {
         visibility: visible;
-        background-color: $primary-color;
+        background-color: rgba(39, 39, 39, 0.36);
+        backdrop-filter: blur(10px);
         opacity: 0.5;
         height: 10vh !important;
 

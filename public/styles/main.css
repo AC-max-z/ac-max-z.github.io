@@ -97,7 +97,7 @@
   justify-content: center;
   height: 100vh;
   overflow: hidden;
-  background: #272727;
+  background: rgba(0, 0, 0, 0.24);
   list-style-type: none;
   padding-right: 1rem;
   transform: translateY(-100%);
@@ -125,7 +125,7 @@
   display: inline-block;
   font-size: 2rem;
   text-transform: uppercase;
-  padding: 2rem 0;
+  padding: 3.3vh 0;
   font-weight: 300;
   transition: all 0.3s ease-in-out;
 }
@@ -402,7 +402,8 @@
   }
   .navigation {
     visibility: visible;
-    background-color: #272727;
+    background-color: rgba(39, 39, 39, 0.36);
+    backdrop-filter: blur(10px);
     opacity: 0.5;
     height: 10vh !important;
   }
