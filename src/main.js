@@ -25,3 +25,7 @@ function toggleMenu() {
         showMenu = false;
     }
 }
+
+const year = new Date().getFullYear();
+const footers = document.getElementById('copyright');
+footers.textContent += `\u00A9 Copyright ${year}`;
