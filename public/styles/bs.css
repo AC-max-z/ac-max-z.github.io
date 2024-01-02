@@ -1,4 +1,4 @@
-[class*='col__coloured'] {
+[class*=col__coloured] {
   padding: 1rem;
   background-color: #33b5e5;
   border: 2px solid #fff;
@@ -10,7 +10,6 @@
   margin-top: 1rem;
 }
 
-[class*='container'] {
+[class*=container] {
   margin-bottom: 0.5rem;
-}
-/*# sourceMappingURL=bs.css.map */
+}/*# sourceMappingURL=bs.css.map */

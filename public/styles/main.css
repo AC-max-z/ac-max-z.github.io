@@ -432,7 +432,7 @@
   }
   .navigation {
     visibility: visible;
-    background-color: rgba(39, 39, 39, 0.36);
+    background-color: rgba(39, 39, 39, 0.5);
     backdrop-filter: blur(10px);
     opacity: 0.5;
     height: 10vh !important;
@@ -449,7 +449,7 @@
   }
   .navigation .menu-nav__item {
     display: inline;
-    padding-right: 1.5rem;
+    padding-right: 19%;
   }
   .navigation .menu-nav__link {
     font-size: 1.5rem;

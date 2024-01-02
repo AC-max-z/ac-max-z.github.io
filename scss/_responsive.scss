@@ -5,7 +5,7 @@
 
     .navigation {
         visibility: visible;
-        background-color: rgba(39, 39, 39, 0.36);
+        background-color: rgba(39, 39, 39, 0.5);
         backdrop-filter: blur(10px);
         opacity: 0.5;
         height: 10vh !important;
@@ -24,7 +24,7 @@
             &__item {
                 display: inline;
                 padding: {
-                    right: 1.5rem;
+                    right: 20%;
                 }
             }
 
