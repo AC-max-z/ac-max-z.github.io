@@ -61,3 +61,9 @@ footer {
     padding: 1rem;
     color: set-text-to-color($primary-color);
 }
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    pointer-events: none;
+}
