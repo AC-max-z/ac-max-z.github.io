@@ -5,7 +5,6 @@ const menuNav = document.querySelector('.menu-nav');
 const navItems = document.querySelectorAll('.menu-nav__item');
 
 let showMenu = false;
-const sup = 'sup?';
 menuBtn.addEventListener('click', toggleMenu);
 
 function toggleMenu() {
