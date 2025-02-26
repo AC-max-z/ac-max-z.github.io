@@ -480,3 +480,53 @@ footer {
   cursor: not-allowed;
   pointer-events: none;
 }/*# sourceMappingURL=main.css.map */
+
+.tooltip {
+  position: relative;
+  z-index: 9999;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  color: #fff;
+  opacity: 1 !important;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+
+.fa-circle-info {
+  position: relative;
+  font-size: 0.6rem;
+  bottom: 0.3rem !important;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  left: 105%;
+  width: 120px;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
